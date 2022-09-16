@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CodeFirstAPI</name>
+    </assembly>
+    <members>
+        <member name="M:CodeFirstAPI.Controllers.ConsultasController.Cadastrar(CodeFirstAPI.Models.Consulta)">
+            <summary>
+            Cadastra uma consulta na aplicação
+            </summary>
+            <param name="consulta">Dados da consulta</param>
+            <returns>Dados da consulta cadastrada</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.ConsultasController.Listar">
+            <summary>
+            Lista todas as consultas cadastradas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.ConsultasController.BuscarUsuarioPorId(System.Int32)">
+            <summary>
+            Faz a busca de uma consulta pelo ID
+            </summary>
+            <param name="id">Busca uma consulta por ID</param>
+            <returns>Consulta cadastrada</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.ConsultasController.Alterar(System.Int32,CodeFirstAPI.Models.Consulta)">
+            <summary>
+            Altera uma consulata na aplicação
+            </summary>
+            <param name="id">Id da consulta</param>
+            <param name="consulta">Consulta cadastrada</param>
+            <returns>Consulta alterada</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.ConsultasController.Patch(System.Int32,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument)">
+            <summary>
+            Faz mudança parcial na consulta cadastrada
+            </summary>
+            <param name="id">Id da consulta</param>
+            <param name="patchConsulta">Consulta cadastrada</param>
+            <returns>Consulta alterada parcialmente</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.ConsultasController.Excluir(System.Int32)">
+            <summary>
+            Exclui uma consulta da aplicação
+            </summary>
+            <param name="id">Id da consulta</param>
+            <returns>Consulta excluída</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.EspecialidadesController.Cadastrar(CodeFirstAPI.Models.Especialidade)">
+            <summary>
+            Cadastra a especialidade do médico na aplicação
+            </summary>
+            <param name="especialidade">Dados da especialidade</param>
+            <returns>Dados da especialidade cadastrada</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.EspecialidadesController.Listar">
+            <summary>
+            Lista todas as especialidades cadastradas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.EspecialidadesController.BuscarUsuarioPorId(System.Int32)">
+            <summary>
+            Faz a busca de uma especialidade pelo ID
+            </summary>
+            <param name="id">Busca especialidade por ID</param>
+            <returns>Especialidade cadastrada</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.EspecialidadesController.Alterar(System.Int32,CodeFirstAPI.Models.Especialidade)">
+            <summary>
+            Altera uma especialidade médica na aplicação
+            </summary>
+            <param name="id">Id da especialidade</param>
+            <param name="especialidade">Especilidade cadastrada</param>
+            <returns>Especialidade alterada</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.EspecialidadesController.Patch(System.Int32,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument)">
+            <summary>
+            Faz mudança parcial na especialidade do médico cadastrado
+            </summary>
+            <param name="id">Id da especialidade</param>
+            <param name="patchEspecialidade">Médico cadastrado</param>
+            <returns>Médico alterado parcialmente</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.EspecialidadesController.Excluir(System.Int32)">
+            <summary>
+            Exclui uma especialidade da aplicação
+            </summary>
+            <param name="id">Id da especialidade</param>
+            <returns>Especialidade excluída</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.MedicosController.Cadastrar(CodeFirstAPI.Models.Medico)">
+            <summary>
+            Cadastra o médico na aplicação
+            </summary>
+            <param name="medico">Dados do médico</param>
+            <returns>Dados do médico cadastrado</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.MedicosController.Listar">
+            <summary>
+            Lista todos os médicos cadastrados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.MedicosController.BuscarUsuarioPorId(System.Int32)">
+            <summary>
+            Faz a busca por ID da clase médico
+            </summary>
+            <param name="id">Busca ID</param>
+            <returns>Médico cadastrado</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.MedicosController.Alterar(System.Int32,CodeFirstAPI.Models.Medico)">
+            <summary>
+            Altera o médico na aplicação
+            </summary>
+            <param name="id">Id do médico</param>
+            <param name="medico">Médico cadastrado</param>
+            <returns>Médico alterado</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.MedicosController.Patch(System.Int32,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument)">
+            <summary>
+            Faz uma mudança parcial no médico cadastrado
+            </summary>
+            <param name="id">Id do médico</param>
+            <param name="patchMedico">Médico cadastrado</param>
+            <returns>Médico parcialmente alterado</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.MedicosController.Excluir(System.Int32)">
+            <summary>
+            Exclui médico da aplicação
+            </summary>
+            <param name="id">Id do médico</param>
+            <returns>Médico excluído</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.PacientesController.Cadastrar(CodeFirstAPI.Models.Paciente)">
+            <summary>
+            Cadastra um paciente na aplicação
+            </summary>
+            <param name="paciente">Dados do paciente</param>
+            <returns>Dados do paciente cadastrado</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.PacientesController.Listar">
+            <summary>
+            Lista todos os paciente cadastrados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.PacientesController.BuscarUsuarioPorId(System.Int32)">
+            <summary>
+            Faz a busca por ID do paciente
+            </summary>
+            <param name="id">Busca ID</param>
+            <returns>Paciente cadastrado</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.PacientesController.Alterar(System.Int32,CodeFirstAPI.Models.Paciente)">
+            <summary>
+            Altera o paciente na aplicação
+            </summary>
+            <param name="id">Id do paciente</param>
+            <param name="paciente">Paciente cadastrado</param>
+            <returns>Paciente alterado</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.PacientesController.Patch(System.Int32,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument)">
+            <summary>
+            Faz aluma mudança parcial no paciente da aplicação
+            </summary>
+            <param name="id">Id do paciente</param>
+            <param name="patchPaciente">Paciente cadastrado</param>
+            <returns>Paciente alterado parcialmente</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.PacientesController.Excluir(System.Int32)">
+            <summary>
+            Exclui paciente cadastrado na aplicação
+            </summary>
+            <param name="id">Id do paciente</param>
+            <returns>Paciente excluído</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.TipoUsuariosController.Cadastrar(CodeFirstAPI.Models.TipoUsuario)">
+            <summary>
+            Cadastra um tipo de usuário na aplicação (Médico ou Paciente)
+            </summary>
+            <param name="tipoUsuario">Dados do tipo de usuário</param>
+            <returns>Dados do tipo de usuário cadastrado</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.TipoUsuariosController.Listar">
+            <summary>
+            Lista todos os tipos de usuários cadastrados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.TipoUsuariosController.BuscarUsuarioPorId(System.Int32)">
+            <summary>
+            Faz a busca de um tipo de usuário pelo ID
+            </summary>
+            <param name="id">Busca tipo de usuário por ID</param>
+            <returns>Tipo de usuário cadastrado</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.TipoUsuariosController.Alterar(System.Int32,CodeFirstAPI.Models.TipoUsuario)">
+            <summary>
+            Altera um tipo de usuário na aplicação
+            </summary>
+            <param name="id">Id do tipo de usuário</param>
+            <param name="tipoUsuario">Tipo de usuário cadastrado</param>
+            <returns>Tipo de usuário alterado</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.TipoUsuariosController.Patch(System.Int32,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument)">
+            <summary>
+            Faz uma mudança parcial no tipo de usuário cadastrado
+            </summary>
+            <param name="id">Id do usuário</param>
+            <param name="patchTipoUsuario">Tipo de usuário cadastrado</param>
+            <returns>Tipo de usuário alterado parcialmente</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.TipoUsuariosController.Excluir(System.Int32)">
+            <summary>
+            Exclui um tipo de usuário da aplicação
+            </summary>
+            <param name="id">Id do tipo de usuário</param>
+            <returns>Tipo de usuário excluído</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.UsuariosController.Cadastrar(CodeFirstAPI.Models.Usuario)">
+            <summary>
+            Cadastra usuários na aplicação
+            </summary>
+            <param name="usuario">Dados do usuário</param>
+            <returns>Dados do usuário cadastrado</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.UsuariosController.Listar">
+            <summary>
+            Lista todos os usuários cadastrados
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.UsuariosController.BuscarUsuarioPorId(System.Int32)">
+            <summary>
+            Faz a busca do usuário pelo seu ID
+            </summary>
+            <param name="id">Busca usuário pelo ID</param>
+            <returns>Usuário cadastrado</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.UsuariosController.Alterar(System.Int32,CodeFirstAPI.Models.Usuario)">
+            <summary>
+            Altera o usuário na aplicação
+            </summary>
+            <param name="id">Id do usuário</param>
+            <param name="usuario">Usuário cadastrado</param>
+            <returns>Usuário alterado</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.UsuariosController.Patch(System.Int32,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument)">
+            <summary>
+            Faz mudança parcial no usuário cadastrado
+            </summary>
+            <param name="id">Id do usuário</param>
+            <param name="patchUsuario">Usuário cadastrado</param>
+            <returns>Usuário alterado parcialemente</returns>
+        </member>
+        <member name="M:CodeFirstAPI.Controllers.UsuariosController.Excluir(System.Int32)">
+            <summary>
+            Exclui um usuário da aplicação
+            </summary>
+            <param name="id">Id do usuário</param>
+            <returns>Usuário excluído</returns>
+        </member>
+    </members>
+</doc>
